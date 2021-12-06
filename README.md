@@ -9,3 +9,8 @@ Forward this bot a bunch of videos and photos and he will create one or more bea
 ## Technical Overview
 
 Uses telegraf-js as a framework. Queues up photos and videos in memory, groups them and sends them.
+<br><br>
+
+
+
+<p align="center"><a href="https://heroku.com/deploy?template=https://heroku.com/deploy?template=https://github.com/tegarpryd/telegram-bot-album-creator/tree/telegram-bot-album-creator"> <img src="https://img.shields.io/badge/Deploy%20Ke%20Heroku-black?style=flat&logo=heroku" width="210" height="34.45" /></a></p>
