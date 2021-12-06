@@ -11,7 +11,7 @@ RUN npm ci
 USER node
 
 # Enviroment
-COPY ./sample_config.env ./.env* ./
+COPY ./.env_example ./.env* ./
 
 # Copy actual code into the image.
 COPY . .
