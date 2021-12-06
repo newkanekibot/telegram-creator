@@ -10,6 +10,9 @@ RUN npm ci
 # Don't need to run the bot as root
 USER node
 
+# Enviroment
+COPY ./sample_config.env ./.env*
+
 # Copy actual code into the image.
 COPY . .
 
