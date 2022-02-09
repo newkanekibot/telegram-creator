@@ -1,0 +1,23 @@
+{
+    "name": "Bum Bot",
+    "description": "A Telegram Album Creator Bot By @CYBERHUNT27",
+    "keywords": [
+        "telegram",
+        "files",
+        "store",
+        "bot"
+    ],
+    "repository": "https://github.com/renggi06/AlbumBot/",
+    "website": "https://telegram.dog/CYBERHUNT27",
+    "success_url": "https://t.me/CYBERHUNT27",
+    "env": {
+        "BOT_TOKEN": {
+            "description": "Dapatkan Token Dari @botfather :)"
+        }
+    },
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ]
+}
